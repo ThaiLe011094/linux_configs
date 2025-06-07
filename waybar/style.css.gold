@@ -1,0 +1,121 @@
+* {
+    /*
+    #  Colors used in this Dark Waybar Theme. This is just for reference.
+        --foreground : #FFD700;  /* Gold color */
+        --background : #1c1c1c;
+        --blue       : #4682b4;
+        --red        : #ff6347;
+        --violet     : #8a2be2;
+        --slate-grey : #708090;
+    */
+        
+    border: none;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 22px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+window#waybar {
+    background: #1c1c1c; /* Dark background */
+    border-radius: 5px;
+}
+
+#workspaces button {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #FFD700; /* Gold foreground color */
+}
+
+#workspaces button.active {
+    background: #333333; /* Slightly lighter background when active */
+    color: #FFD700;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+#workspaces button:hover {
+    background: #444444; /* Darker gray for hover */
+    color: #FFD700;
+}
+
+#taskbar button {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+    color: #FFD700; /* Gold foreground color */
+}
+
+#taskbar button.active {
+    background: transparent;
+    color: #FFD700;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+#taskbar button:hover {
+    background: #444444; /* Darker gray for hover */
+    color: #FFD700;
+}
+
+#clock, #cpu, #network, #custom-appmenu, #pulseaudio, #memory, #disk, #tray, #user, #custom-quit, #custom-lock, #custom-reboot, #custom-shutdown {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-right: 4px;
+    padding-left: 4px;
+    color: #FFD700; /* Gold foreground color */
+}
+
+#clock {
+    margin-top: 3px;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+#cpu, #network, #custom-appmenu, #pulseaudio, #memory, #disk, #tray, #user, #custom-quit, #custom-lock, #custom-reboot, #custom-shutdown {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#taskbar {
+    padding: 0px;
+}
+
+/* Colors for the tray icons (if any) */
+#tray {
+    color: #FFD700; /* Gold text color */
+}
+
+/* Custom button colors */
+#custom-quit, #custom-lock, #custom-reboot, #custom-shutdown {
+    background: #333333; /* Dark background for custom buttons */
+    color: #FFD700; /* Gold text color */
+}
+
+#custom-quit:hover, #custom-lock:hover, #custom-reboot:hover, #custom-shutdown:hover {
+    background: #444444; /* Slightly lighter on hover */
+    color: #FFD700;
+}

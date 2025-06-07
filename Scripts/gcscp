@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Copying file $1 to GCS"
+gsutil cp "$1" "gs://asia-east2-dlvr-dev-compose-2accea4e-bucket/$1"
+echo "Copied successfully"
