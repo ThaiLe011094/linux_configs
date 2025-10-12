@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Postman
+Comment=API Platform. Redefined.
+GenericName=New API Platform
+Exec=/home/thai/applications/postman/Postman %F
+Icon=/home/thai/applications/shortcuts/postman.svg
+Type=Application
+StartupNotify=false
+Categories=Network;
+Keywords=postman;

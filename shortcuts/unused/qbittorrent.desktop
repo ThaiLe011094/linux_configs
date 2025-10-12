@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=qBittorrent
+Comment=Instant Note. Redefined.
+GenericName=New Instant Note
+Exec=/home/thai/applications/shortcuts/qbittorrent.sh %F
+Icon=/home/thai/applications/shortcuts/qbittorrent.png
+Type=Application
+StartupNotify=false
+Categories=Internet;
+Keywords=qbittorrent;

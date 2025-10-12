@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Name=Waterfox
+GenericName=Web Browser
+Comment=Access the Internet
+Exec=/home/thai/applications/waterfox/waterfox %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/thai/applications/shortcuts/waterfox.png
+Categories=Network;WebBrowser;
+StartupNotify=true
+Actions=NewWindow;Incognito;TempProfile;
+
+[Desktop Action NewWindow]
+Name=Open a New Window
+Exec=/home/thai/applications/waterfox/waterfox %U --new-instance
+
+[Desktop Action Incognito]
+Name=Open a New Window in incognito mode
+Exec=/home/thai/applications/waterfox/waterfox %U --private-window

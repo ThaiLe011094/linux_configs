@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Viber
+Comment=Instant Messenger. Redefined.
+GenericName=New Instant Messenger
+Exec=/home/thai/applications/viber/viber.AppImage %F
+Icon=/home/thai/applications/shortcuts/viber.png
+Type=Application
+StartupNotify=false
+Categories=Network;
+Keywords=viber;

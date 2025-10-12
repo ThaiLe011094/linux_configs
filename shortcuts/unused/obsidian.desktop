@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Obsidian
+Comment=Instant Note. Redefined.
+GenericName=New Instant Note
+Exec=/home/thai/applications/shortcuts/obsidian.sh %F
+Icon=/home/thai/applications/shortcuts/obsidian.ico
+Type=Application
+StartupNotify=false
+Categories=Office;
+Keywords=obsidian;

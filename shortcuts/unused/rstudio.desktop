@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=R-Studio
+Comment=Code Editing. Redefined.
+GenericName=Text Editor
+Exec=$HOME/applications/rstudio/rstudio %F
+Icon=$HOME/applications/shortcuts/rstudio.png
+Type=Application
+StartupNotify=false
+Categories=TextEditor;Development;IDE;
+Keywords=rstudio;
+
